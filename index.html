@@ -1,29 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+<meta charset="UTF-8">
+<title>thzvm.github.io</title>
+<!-- Ну а дальше идёт пиздец. -->
+<style type="text/css">
+body {
+	background-color: #272822;
+}
+body,td,th {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #FFFFFF;
+}
+
+.head {
+	color: #75715e;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.self  {
+	color: #94558d;
+}
+.sign {
+	color: #f92672;
+	font-weight: bold;
+}
+.func {
+	color: #55d9ef;
+	font-style: italic;
+}
+.obj {
+	color: #96e22e;
+	}
+.link {
+	color: #008080;
+	font-style: italic;
+}
+.comment {
+	color: #75715e;
+	}
+</style>
+</head>
 <body>
-<h1>Hello World!</h1>
-<p>Hello <a href='http://thzvm.github.io'>Recursion</a>!</p>
-</body>
-<p>Hello <a href='https://github.com/thzvm'>GitHub</a>!</p>
-<p>Hello <a href='https://twitter.com/thzvm'>Twitter</a>!</p>
-<p>Hello <a href='http://www.last.fm/user/Ingazik'>last.fm</a>!</p>
-<p>Hello <a href='https://telegram.me/thzvm'>Telegram</a>!</p>
-<p>Hello <a href='http://www.imdb.com/user/ur23699232/'>IMDb</a> and <a href='http://www.kinopoisk.ru/user/1056520/'>Kinopoisk</a>!</p>
+<pre>
+ <span class="head">#Hello <a href="http://thzvm.github.io" class="head">Recursion</a>!</span>
+ 
 
-<p>   H</p>
-<p>   　   e</p>
-<p>   　   　   l</p>
-<p>   　   　   　   l</p>
-<p>   　   　   　   　 o</p>
-<p>　　　　 　     o</p>
-<p>　　　　　　   o</p>
-<p>　　　　　 　   o</p>
-<p>　　　　　　   o</p>
-<p>　　　　 　   。</p>
-<p>　　　 　   。</p>
-<p>　　　　   .</p>
-<p>　　　　   .</p>
-<p>　　　　    .</p> 
-<p>　　　　　   .</p>
+1  | <span style="color: #55d9ef"><em>from</em></span> God <span style="color: #55d9ef"><em>import</em></span> existence
+2  |
+3  | human <span class="sign">=</span> existence.creature
+4  | human.lazy <span class="sign">=</span> <span style="color: #55d9ef"><em>True</em></span>
+5  | 
+6  | <span class="func">class</span> <span class="obj">person</span>(human):
+7  |    <span class="func">def__init__</span>(<span class="self">self</span>)<span class="sign">:</span>
+8  | 
+9  |         <span class="self">self</span>.name    <span class="sign">=</span> <span class="link">'Vadim'</span>
+10 |         <span class="self">self</span>.surname <span class="sign">=</span> <span class="link">'Vadim'</span>
+11 |         <span class="self">self</span>.gender  <span class="sign">=</span> <span class="link">'Male'</span>
+12 |         <span class="self">self</span>.date    <span class="sign">=</span> <span class="link">'22.08.1991'</span>
+13 |         <span class="self">self</span>.city    <span class="sign">=</span> <span class="link">'Moscow'</span>
+14 |         <span class="self">self</span>.country <span class="sign">=</span> <span class="link">'Russia'</span>
+15 | 
+16 | <span class="func">class</span> <span class="obj">web</span>(person):
+17 |     <span class="func">def__init__</span>(<span class="self">self</span>)<span class="sign">:</span>
+18 | 
+19 |         <span class="self">self</span>.GitHub    <span class="sign">=</span> <span class="link">'<a href="https://github.com/thzvm" target="new" class="link">https://github.com/thzvm</a>'</span>
+20 |         <span class="self">self</span>.Twitter   <span class="sign">=</span> <span class="link">'<a href="https://twitter.com/thzvm" target="new" class="link">https://twitter.com/thzvm</a>'</span>
+21 |         <span class="self">self</span>.lastfm    <span class="sign">=</span> <span class="link">'<a href="http://www.last.fm/user/ingazik" target="new" class="link">https://www.last.fm/user/ingazik</a>' </span>
+22 |         <span class="self">self</span>.Telegram  <span class="sign">=</span> <span class="link">'<a href="https://telegram.me/thzvm" target="new" class="link">https://telegram.me/thzvm</a>'</span>
+23 |         <span class="self">self</span>.Instagram <span class="sign">=</span> <span class="link">'<a href="https://www.instagram.com/thzvm/" target="new" class="link">https://www.instagram.com/thzvm</a>'</span>
+24 |         <span class="self">self</span>.IMDbase   <span class="sign">=</span> <span class="link">'<a href="http://www.imdb.com/user/ur23699232/" target="new" class="link">https://www.imdb.com/user/ur23699232</a>'</span>
+25 |         <span class="self">self</span>.Kinopoisk <span class="sign">=</span><span class="link"> '<a href="http://www.kinopoisk.ru/user/1056520/" target="new" class="link">https://www.kinopoisk.ru/user/1056520</a>'</span>
+26 |         <span class="self">self</span>.Goodreads <span class="sign">=</span> <span class="link">'<a href="https://www.goodreads.com/user/show/27541239-sty-doevsky" target="new" class="link">https://www.goodreads.com/user/show/27541239-sty-doevsky</a>'</span>
+27 |         
+28 | <span class="func">class</span> <span class="obj">soft</span>(person)<span class="sign">:</span>
+29 |     <span class="func">pass</span>
+30 | 
+31 | <span class="func">class</span> <span class="obj">skill</span>(person)<span class="sign">:</span>
+32 |     <span class="func">pass</span>
+33 |  
+34 | <img src="http://i.imgur.com/MtSK6bC.gif" width="13" height="13" alt=""/>
 
+
+<span class="comment">
+                                                                         xmHTTTTT%ms.
+                                                                    z?!!!!!!!!!!!!!!?m
+                                                                  z!!!!!!!!!!!!!!!!!!!!%
+                                                               eHT!!!!!!!!!!!!!!!!!!!!!!!L
+                                                              M!!!!!!!!!!!!!!!!!!!!!!!!!!!>
+                                                           z!!!!!!!!!!XH!!!!!!!!!!!!!!!!!!X
+                                                           "$$F*tX!!W?!!!!!!!!!!!!!!!!!!!!!
+                                                           >     M!!!   4$$NX!!!!!!!!!!!!!t
+                                                           tmem?!!!!?    ""   "X!!!!!!!!!!F
+                                                      um@T!!!!!!!!!!!!s.      M!!!!!!!!!!F
+                                                   .#!!!!!!!!!!!!!!!XX!!!!?mM!!!!!!!!!!t~
+                                                  M!!!@!!!!X!!!!!!!!!!*U!!!!!!!!!!!!!!@
+                                                 M!!t%!!!W?!!!XX!!!!!!!!!!!!!!!!!!!!X"
+                                                :!!t?!!!@!!!!W?!!!!XWWUX!!!!!!!!!!!t
+                                                4!!$!!!M!!!!8!!!!!@$$$$$$NX!!!!!!!!-
+                                                 *P*!!!$!!!!E!!!!9$$$$$$$$%!!!!!!!K
+                                                    "H*"X!!X&!!!!R**$$$*#!!!!!!!!!>
+                                                        'TT!?W!!9!!!!!!!!!!!!!!!!M
+                                                        '!!!!!!!!!!!!!!!!!!!!!!!!F
+                                                        '!!!!!!!!!!!!!!!!!!!!!!!!>
+                                                        '!!!!!!!!!!!!!!!!!!!!!!!M
+                                                        J!!!!!!!!!!!!!!!!!!!!!!!F K!%n.
+         @!!!!!??m.                                  x?F'X!!!!!!!!!!!!!!!!!!!!HP X!!!!!!?m.
+Z?L      '%!!!!!!!!!?s                            .@!\~ MB!!!!!!!!!!!!!!!!!U#!F X!!!!!!!!X#!%.
+E!!N!k     't!!!!!!!!!?:                       zTX?!t~ M!t!!!!!!!!!!!!!!UM!!!F 4!!!!!!!!t%!!!!?.
+!!!!!!hzh.   "X!!!!!!!!!>                  .+?!!3?!X  Z!!!B!!!!!!!!!!UM!!!!!" 4!!!!!!!!t?!!!!!!!h
+?!!!!!!!!!*!?L %!!!!!!!!?               .+?!!!!3!!\  P!!!!?X!!!!!!U#!!!!!!X" 4!!!!!!!!\%!!!!!!!!!?
+'X!!!!!!!!!!!!?TTTT*U!!!!k            z?!!!!!!t!!!- J!!!!!!9!!X@T!!!!!!!!X~ d!!!!!!!!!%!!!!!!!!!!!!L
+ 4!!!!!!!!!!!!!!!!!!!!!!!M          'W!!!!!!!X%!!P  %!!!!!!!T!!!!!!!!!!!X~ J!!!!!!!!!P!!!!!!!!!!!!!!\
+  5!!!!!!!!!!!!!!!!!!!!!!!?m.       .@Ti!!!!!Z!!t  d!!!!!!!!!!!!!!!!!!!X-.JUUUUX!!!!J!!!!!!!!!!!!!!!!!
+   %!!!!!!!!!!!!!!!!!!!!!!!!!!!TnzT!!!!!#/!!?!!X"  ^"=4UU!!!!!!!!!!U@T!!!!!!!!!!!!Th2!!!!!!!!!!!!!!!!!!
+    ^t!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!?K!K!!f               `""#X!!!!!!!!!!!!!!!!!?t!!!!!!!!!!!!!!!!(>
+       "U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!F                      "tX!!!!!!!!!!!!!!!!b!!!!!!!!!!!!!!!(>
+          '"*tUUX!X!!!!!!!!!!!!!!!!!!!!!!!!$!Z                          ^4!!!!!!!!!!!!!!!N!!!!!!!!!!!!!!!!
+                 %!!!!!!!!!!!!!!!!!!!!!!!!X!X                              %W@@WX!!!!!!!!!N!!!!!!!!!!!!!!!
+                  "X!!!!!!!!!!!!!!!!!!!!!@!!*        ..    ..  :m.. ETThmuM!!!!!!!!!!!!!!!!@m@*TTTT?!!!W!!
+                    %!!!!!!!!!!!!!!!!!!W?!!X         M!!!TT?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!9UU!!!!!!!!!M!f
+                     't!!!!!!!!!!!!!!!P!!!!X          5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!?NX!!!!!!L
+                       "W!!!!!!!!!!!X#!!!!!R           "X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!R!!!!!t
+                         ^*X!!!!!!!t%!!!!!h              %X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!>
+                             "*U!!M!!!!!!X~ :?!!!T!+s...   *X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                 :?!!!!!!> :?!!!!!!!!!!!!!!!!?tX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!>
+                                 %!!!!!!F .%!!!!!!!!!!!!!!!!!!!!!#4U!!!!!!!!!!!!U!!!!!!!!!!!!!!!!!!!!!!!!~
+</span>
+</pre>
+<!-- Ну да, это пиздец. -->
 </html>
