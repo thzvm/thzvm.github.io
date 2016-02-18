@@ -1,4 +1,6 @@
+
 <!doctype html>
+<!-- Ну а дальше идёт пиздец -->
 <html>
 <head>
 <meta charset="UTF-8">
@@ -10,12 +12,15 @@ body {
 body,td,th {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	color: #FFFFFF;
+	text-align: left;
 }
 
 .head {
 	color: #75715e;
 	font-size: 48px;
 	font-weight: bold;
+	text-align: center;
+	align-content: center;
 }
 
 .self  {
@@ -29,67 +34,81 @@ body,td,th {
 	color: #55d9ef;
 	font-style: italic;
 }
+
+.func2 {
+	color: #55d9ef;
+	
+}
 .obj {
 	color: #96e22e;
 	}
 .link {
 	color: #008080;
-	font-style: italic;
+	
 }
 .comment {
 	color: #75715e;
 	}
+.line {
+	color: #575749;
+	font-weight: lighter;
+}
+
 </style>
 </head>
 <body  onselectstart="return false">
-<table width="100%" border="0" align="center" height="100">
-  <tbody>
-    <tr>
-      <td align="center" class="head">תֹ֙הוּ֙ וָבֹ֔הוּ
-      </td>
-    </tr>
-  </tbody>
-</table>
 <table width="100%" border="0" >
   <tbody>
     <tr draggable="false">
-      <td width="18%" draggable="false" >&nbsp;</td>
-      <td width="64%">
+      <td width="3%" draggable="false" >&nbsp;</td>
+      <td width="70%">
+      
       <pre>
-1  | <span style="color: #55d9ef"><em>from</em></span> God <span style="color: #55d9ef"><em>import</em></span> existence
-2  |
-3  | human <span class="sign">=</span> existence.creature(<span class="link">'human'</span>)
-4  | human.lazy <span class="sign">=</span> <span style="color: #55d9ef"><em>True</em></span>
-5  | 
-6  | <span class="func">class</span> <span class="obj">person</span>(human):
-7  |    <span class="func">def__init__</span>(<span class="self">self</span>)<span class="sign">:</span>
-8  | 
-9  |         <span class="self">self</span>.name    <span class="sign">=</span> <span class="link">'Vadim'</span>
-10 |         <span class="self">self</span>.surname <span class="sign">=</span> <span class="link">'Vadim'</span>
-11 |         <span class="self">self</span>.gender  <span class="sign">=</span> <span class="link">'Male'</span>
-12 |         <span class="self">self</span>.date    <span class="sign">=</span> <span class="link">'22.08.1991'</span>
-13 |         <span class="self">self</span>.city    <span class="sign">=</span> <span class="link">'Moscow'</span>
-14 |         <span class="self">self</span>.country <span class="sign">=</span> <span class="link">'Russia'</span>
-15 | 
-16 | <span class="func">class</span> <span class="obj">web</span>(person):
-17 |     <span class="func">def__init__</span>(<span class="self">self</span>)<span class="sign">:</span>
-18 | 
-19 |         <span class="self">self</span>.GitHub    <span class="sign">=</span> <span class="link">'<a href="https://github.com/thzvm" target="new" class="link">https://github.com/thzvm</a>'</span>
-20 |         <span class="self">self</span>.Twitter   <span class="sign">=</span> <span class="link">'<a href="https://twitter.com/thzvm" target="new" class="link">https://twitter.com/thzvm</a>'</span>
-21 |         <span class="self">self</span>.lastfm    <span class="sign">=</span> <span class="link">'<a href="http://www.last.fm/user/ingazik" target="new" class="link">https://www.last.fm/user/ingazik</a>' </span>
-22 |         <span class="self">self</span>.Telegram  <span class="sign">=</span> <span class="link">'<a href="https://telegram.me/thzvm" target="new" class="link">https://telegram.me/thzvm</a>'</span>
-23 |         <span class="self">self</span>.Instagram <span class="sign">=</span> <span class="link">'<a href="https://www.instagram.com/thzvm/" target="new" class="link">https://www.instagram.com/thzvm</a>'</span>
-24 |         <span class="self">self</span>.IMDbase   <span class="sign">=</span> <span class="link">'<a href="http://www.imdb.com/user/ur23699232/" target="new" class="link">https://www.imdb.com/user/ur23699232</a>'</span>
-25 |         <span class="self">self</span>.Kinopoisk <span class="sign">=</span><span class="link"> '<a href="http://www.kinopoisk.ru/user/1056520/" target="new" class="link">https://www.kinopoisk.ru/user/1056520</a>'</span>
-26 |         <span class="self">self</span>.Goodreads <span class="sign">=</span> <span class="link">'<a href="https://www.goodreads.com/user/show/27541239-sty-doevsky" target="new" class="link">https://www.goodreads.com/user/show/27541239-sty-doevsky</a>'</span>
-27 |         
-28 | <span class="func">class</span> <span class="obj">soft</span>(person)<span class="sign">:</span>
-29 |     <span class="func">pass</span>
-30 | 
-31 | <span class="func">class</span> <span class="obj">skill</span>(person)<span class="sign">:</span>
-32 |     <span class="func">pass</span>
+<span class="head"> Hello World!    </span>
+1  | <span class="comment">#&#32;The&#32;world&#32;is&#32;a&#32;dangerous&#32;place&#32;to</span>
+2  | <span class="comment">#&#32;live;&#32;not&#32;because&#32;of&#32;the&#32;people&#32;who</span>
+3  | <span class="comment">#&#32;are&#32;evil,&#32;but&#32;because&#32;of&#32;the&#32;people</span>
+4  | <span class="comment">#&#32;who&#32;don't&#32;do&#32;anything&#32;about&#32;it.</span>
+5  | <span class="comment">#&#32;Albert&#32;Einstein</span>
+6  | 
+7  | <span style="color: #55d9ef"><em>from</em></span> God <span style="color: #55d9ef"><em>import</em></span> existence
+8  |
+9  | human <span class="sign">=</span> existence.creature(<span class="link">'human'</span>)
+10 | 
+11 | <span class="func">class</span> <span class="obj">person</span>(human):
+12 |    <span class="func">def__init__</span>(<span class="self">self</span>)<span class="sign">:</span>
+13 |   <span class="line"> |</span><span class="func2">    super</span>(person, <span class="self">self</span>).<span class="func2">__init__</span>()
+14 |    <span class="line">| </span>  
+15 |   <span class="line"> |</span>    <span class="self">self</span>.name <span class="sign">=</span> <span class="link">'Vadim'</span>
+16 |   <span class="line"> |</span>    <span class="self">self</span>.city <span class="sign">=</span> <span class="link">'Moscow'</span>
+17 |   <span class="line"> |</span>          
+18 |   <span class="line"> |</span>    <span class="func">if</span>&#32;<span class="self">self</span>.lazy&#32;<span class="sign">==</span>&#32;<span class="func">True</span><span class="sign">:</span>
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.skill&#32;<span class="sign">=</span>&#32;[<span class="link">'¯\_(ツ)_/¯'</span>]
+20 |   <span class="line"> |</span>         
+21 |   <span class="line"> |</span>    <span class="func">def</span>&#32;<span class="obj">hobby</span>(<span class="self">self</span>)<span class="sign">:</span>
+22 |   <span class="line"> |</span>        <span class="self">self</span>.Painting&#32;<span class="sign">=</span>&#32;<span class="link">'Illustrator'</span>
+23 |   <span class="line"> |</span>        <span class="self">self</span>.Programming&#32;<span class="sign">=</span>&#32;(<span class="link">'Python'</span>,&#32;<span class="link">'C++'</span>)
+24 | 
+25 | <span class="func">class</span> <span class="obj">web</span>(person):
+26 |    <span class="func">def__init__</span>(<span class="self">self</span>)<span class="sign">:</span>
+27 |   <span class="line"> |</span><span class="func2">    super</span>(web,&#32;<span class="self">self</span>).<span class="func2">__init__</span>()
+28 |   <span class="line"> |</span>    
+28 |   <span class="line"> |</span>    <span class="func">if</span>&#32;<span class="link">'web'</span>&#32;<span class="func">in</span>&#32;<span class="self">self</span>.data<span class="sign">:</span>
+19 |   <span class="line"> |</span>    <span class="line">|</span>    
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.GitHub    <span class="sign">=</span> <span class="self">self</span>.data[<span class="link">'web'</span>][<span class="link">'<a href="https://github.com/thzvm" target="new" class="link">github</a>'</span>]
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.Twitter   <span class="sign">=</span> <span class="self">self</span>.data[<span class="link">'web'</span>][<span class="link">'<a href="https://twitter.com/thzvm" target="new" class="link">twitter</a>'</span>]
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.lastfm    <span class="sign">=</span> <span class="self">self</span>.data[<span class="link">'web'</span>][<span class="link">'<a href="http://www.last.fm/user/ingazik" target="new" class="link">last.fm</a>' </span>]
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.Telegram  <span class="sign">=</span> <span class="self">self</span>.data[<span class="link">'web'</span>][<span class="link">'<a href="https://telegram.me/thzvm" target="new" class="link">telegram</a>'</span>]
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.Instagram <span class="sign">=</span> <span class="self">self</span>.data[<span class="link">'web'</span>][<span class="link">'<a href="https://www.instagram.com/thzvm/" target="new" class="link">instagram</a>'</span>]
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.IMDbase   <span class="sign">=</span> <span class="self">self</span>.data[<span class="link">'web'</span>][<span class="link">'<a href="http://www.imdb.com/user/ur23699232/" target="new" class="link">imdbase</a>'</span>]
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.Kinopoisk <span class="sign">=</span> <span class="self">self</span>.data[<span class="link">'web'</span>][<span class="link">'<a href="http://www.kinopoisk.ru/user/1056520/" target="new" class="link">kinopoisk</a>'</span>]
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.Goodreads <span class="sign">=</span> <span class="self">self</span>.data[<span class="link">'web'</span>][<span class="link">'<a href="https://www.goodreads.com/user/show/27541239-sty-doevsky" target="new" class="link">goodreads</a>'</span>]
+19 |   <span class="line"> |</span>      
+19 |   <span class="line"> |</span>    <span class="func">else</span><span class="sign">:</span>
+19 |   <span class="line"> |</span>    <span class="line">|</span>    <span class="self">self</span>.mail&#32;<span class="sign">=</span>&#32;<span class="link">'<a href="mailto:thzvme@gmail.com" class="link">thzvme@gmail.com</a>'</span>
 33 |  
 34 | <img src="http://i.imgur.com/MtSK6bC.gif" width="13" height="13" alt=""/>
+
 
 
 <span class="comment">                                                                       xmHTTTTT%ms.
@@ -115,29 +134,30 @@ body,td,th {
                                                         '!!!!!!!!!!!!!!!!!!!!!!!M
                                                         J!!!!!!!!!!!!!!!!!!!!!!!F K!%n.
          @!!!!!??m.                                  x?F'X!!!!!!!!!!!!!!!!!!!!HP X!!!!!!?m.
-Z?L      '%!!!!!!!!!?s                            .@!\~ MB!!!!!!!!!!!!!!!!!U#!F X!!!!!!!!X#!%.
-E!!N!k     't!!!!!!!!!?:                       zTX?!t~ M!t!!!!!!!!!!!!!!UM!!!F 4!!!!!!!!t%!!!!?.
-!!!!!!hzh.   "X!!!!!!!!!>                  .+?!!3?!X  Z!!!B!!!!!!!!!!UM!!!!!" 4!!!!!!!!t?!!!!!!!h
-?!!!!!!!!!*!?L %!!!!!!!!?               .+?!!!!3!!\  P!!!!?X!!!!!!U#!!!!!!X" 4!!!!!!!!\%!!!!!!!!!?
-'X!!!!!!!!!!!!?TTTT*U!!!!k            z?!!!!!!t!!!- J!!!!!!9!!X@T!!!!!!!!X~ d!!!!!!!!!%!!!!!!!!!!!!L
- 4!!!!!!!!!!!!!!!!!!!!!!!M          'W!!!!!!!X%!!P  %!!!!!!!T!!!!!!!!!!!X~ J!!!!!!!!!P!!!!!!!!!!!!!!\
-  5!!!!!!!!!!!!!!!!!!!!!!!?m.       .@Ti!!!!!Z!!t  d!!!!!!!!!!!!!!!!!!!X-.JUUUUX!!!!J!!!!!!!!!!!!!!!!!
-   %!!!!!!!!!!!!!!!!!!!!!!!!!!!TnzT!!!!!#/!!?!!X"  ^"=4UU!!!!!!!!!!U@T!!!!!!!!!!!!Th2!!!!!!!!!!!!!!!!!!
-    ^t!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!?K!K!!f               `""#X!!!!!!!!!!!!!!!!!?t!!!!!!!!!!!!!!!!(>
-       "U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!F                      "tX!!!!!!!!!!!!!!!!b!!!!!!!!!!!!!!!(>
-          '"*tUUX!X!!!!!!!!!!!!!!!!!!!!!!!!$!Z                          ^4!!!!!!!!!!!!!!!N!!!!!!!!!!!!!!!!
-                 %!!!!!!!!!!!!!!!!!!!!!!!!X!X                              %W@@WX!!!!!!!!!N!!!!!!!!!!!!!!!
-                  "X!!!!!!!!!!!!!!!!!!!!!@!!*        ..    ..  :m.. ETThmuM!!!!!!!!!!!!!!!!@m@*TTTT?!!!W!!
-                    %!!!!!!!!!!!!!!!!!!W?!!X         M!!!TT?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!9UU!!!!!!!!!M!f
-                     't!!!!!!!!!!!!!!!P!!!!X          5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!?NX!!!!!!L
-                       "W!!!!!!!!!!!X#!!!!!R           "X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!R!!!!!t
-                         ^*X!!!!!!!t%!!!!!h              %X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!>
-                             "*U!!M!!!!!!X~ :?!!!T!+s...   *X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                                 :?!!!!!!> :?!!!!!!!!!!!!!!!!?tX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!>
-                                 %!!!!!!F .%!!!!!!!!!!!!!!!!!!!!!#4U!!!!!!!!!!!!U!!!!!!!!!!!!!!!!!!!!!!!!~</span></pre></td>
-      <td width="18%"></td>
+Z?L      '%!!!!!!!!!?s                            .@!\~ MB!!!!!!!!!!!!!!!!!U#!F X!!!!!!!!X#!%
+E!!N!k     't!!!!!!!!!?:                       zTX?!t~ M!t!!!!!!!!!!!!!!UM!!!F 4!!!!!!!!t%!!!
+!!!!!!hzh.   "X!!!!!!!!!>                  .+?!!3?!X  Z!!!B!!!!!!!!!!UM!!!!!" 4!!!!!!!!t?!!!!
+?!!!!!!!!!*!?L %!!!!!!!!?               .+?!!!!3!!\  P!!!!?X!!!!!!U#!!!!!!X" 4!!!!!!!!\%!!!!!
+'X!!!!!!!!!!!!?TTTT*U!!!!k            z?!!!!!!t!!!- J!!!!!!9!!X@T!!!!!!!!X~ d!!!!!!!!!%!!!!!!
+ 4!!!!!!!!!!!!!!!!!!!!!!!M          'W!!!!!!!X%!!P  %!!!!!!!T!!!!!!!!!!!X~ J!!!!!!!!!P!!!!!!!
+  5!!!!!!!!!!!!!!!!!!!!!!!?m.       .@Ti!!!!!Z!!t  d!!!!!!!!!!!!!!!!!!!X-.JUUUUX!!!!J!!!!!!!!
+   %!!!!!!!!!!!!!!!!!!!!!!!!!!!TnzT!!!!!#/!!?!!X"  ^"=4UU!!!!!!!!!!U@T!!!!!!!!!!!!Th2!!!!!!!!
+    ^t!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!?K!K!!f               `""#X!!!!!!!!!!!!!!!!!?t!!!!!!
+       "U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!F                      "tX!!!!!!!!!!!!!!!!b!!!!
+          '"*tUUX!X!!!!!!!!!!!!!!!!!!!!!!!!$!Z                          ^4!!!!!!!!!!!!!!!N!!!
+                 %!!!!!!!!!!!!!!!!!!!!!!!!X!X                              %W@@WX!!!!!!!!!N!!
+                  "X!!!!!!!!!!!!!!!!!!!!!@!!*        ..    ..  :m.. ETThmuM!!!!!!!!!!!!!!!!@m
+                    %!!!!!!!!!!!!!!!!!!W?!!X         M!!!TT?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!9U
+                     't!!!!!!!!!!!!!!!P!!!!X          5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                       "W!!!!!!!!!!!X#!!!!!R           "X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                         ^*X!!!!!!!t%!!!!!h              %X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                             "*U!!M!!!!!!X~ :?!!!T!+s...   *X!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                 :?!!!!!!> :?!!!!!!!!!!!!!!!!?tX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                 %!!!!!!F .%!!!!!!!!!!!!!!!!!!!!!#4U!!!!!!!!!!!!U!!!!!!!!!!!!</span></pre></td>
+      <td width="27%">
+      </td>
     </tr>
   </tbody>
 </table>
-<!-- Ну да, это пиздец. -->
+<!-- Ну да, это пиздец -->
 </html>
